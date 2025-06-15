@@ -746,6 +746,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7592779738593044252, guid: 03ffd135f81a3fb4cb6f2e6e944f979d,
         type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f7d0b7c3397f4dac91f20e8a77d2d57, type: 3}
+    - target: {fileID: 7592779738593044252, guid: 03ffd135f81a3fb4cb6f2e6e944f979d,
+        type: 3}
+      propertyPath: crashSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e7ee25a47d63b46cdaf65480d62b405c, type: 3}
+    - target: {fileID: 7592779738593044252, guid: 03ffd135f81a3fb4cb6f2e6e944f979d,
+        type: 3}
       propertyPath: dirtParticle
       value: 
       objectReference: {fileID: 1449364893}
