@@ -24,9 +24,11 @@ public class SpawnManager : MonoBehaviour
     }
     void SpawnObstacle ()
     {
+        Debug.Log("Pasei aqui");
         if (playerControllerScript.gameOver == false)
         {
             Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
+            Debug.Log("Frase");
         }
     }
 }
